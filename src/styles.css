@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+}
+.card{
+	font-style: bold;
+	font-size: 20px;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px #e0d5d5;
+    
+    
+}
+.card-title{
+	white-space: nowrap;
+	overflow: hidden;
+}

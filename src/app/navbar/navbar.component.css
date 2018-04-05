@@ -1,0 +1,11 @@
+li {
+	padding-left: 20px !important;
+}
+a {
+	color: white;
+	font-family: Libre Baskerville;
+	font-size: 25px;
+}
+.navbar-brand{
+	color: red;
+}

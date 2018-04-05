@@ -1,0 +1,14 @@
+
+<div class="container">
+  <div class="row">
+  <div class="col-md-3 col-sm-4 py-3" *ngFor="let item of movieData">
+    <div class="card">
+      <img class="img-fluid d-block" [attr.src]="baseUrl+item.poster_path" alt="Image not found">
+      <div class="card-block">
+        <h4 class="card-title">{{item.title}}</h4>
+        <p class="card-text">From &nbsp;{{item.release_date |date}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
